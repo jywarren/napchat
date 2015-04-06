@@ -1,0 +1,13 @@
+{
+  "name": "fanwood",
+  "homepage": "https://github.com/theleagueof/fanwood",
+  "_release": "cbaaed9704",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "cbaaed9704e7d37d3dcdbdf0b472e9efd0e39432"
+  },
+  "_source": "git://github.com/theleagueof/fanwood.git",
+  "_target": "*",
+  "_originalSource": "theleagueof/fanwood"
+}
