@@ -64,22 +64,30 @@ p {
   text-align:center;
 }
 
-p img {
+img {
   margin:20px 0;
   width:30%;
 }
 
+.hero {
+  text-align:center;
+  margin:0 auto 40px;
+}
+
+@media (max-width:768px) {
+  img {
+    width:75%;
+  }
+}
+
 h1, h2, h3, h4 {
-  margin-top:40px;
+  margin-top:80px;
   line-height:150%;
+  text-align:center;
 }
 
 h3 {
   font-size:3em;
-}
-
-#content h1, #content h2, #content h3, #content h4 {
-  text-align:center;
 }
 
 .btn-default {
@@ -88,20 +96,7 @@ h3 {
   color:#888;
 }
 
-.hero {
-  text-align:center;
-  margin:0 auto 40px;
-}
-
-.hero img {
-  width:40%;
-}
-.hero img.hidden-xs {
-  width:75%;
-}
-
 footer {
-  font-family:'Raleway', sans-serif;
   text-align:center;
   padding:80px 0 40px;
 }
