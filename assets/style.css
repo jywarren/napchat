@@ -1,0 +1,107 @@
+/* 
+ * Fanwood is an open source font available at 
+ * https://www.theleagueofmoveabletype.com/fanwood
+ */
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../bower_components/raleway/webfonts/raleway_thin-webfont.eot');
+    src: url('../bower_components/raleway/webfonts/raleway_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../bower_components/raleway/webfonts/raleway_thin-webfont.woff') format('woff'),
+         url('../bower_components/raleway/webfonts/raleway_thin-webfont.ttf') format('truetype'),
+         url('../bower_components/raleway/webfonts/raleway_thin-webfont.svg#fanwood') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fanwood';
+    src: url('../bower_components/fanwood/webfonts/fanwood-webfont.eot');
+    src: url('../bower_components/fanwood/webfonts/fanwood-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../bower_components/fanwood/webfonts/fanwood-webfont.woff') format('woff'),
+         url('../bower_components/fanwood/webfonts/fanwood-webfont.ttf') format('truetype'),
+         url('../bower_components/fanwood/webfonts/fanwood-webfont.svg#fanwood') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fanwood Text';
+    src: url('../bower_components/fanwood/webfonts/fanwood_text-webfont.eot');
+    src: url('../bower_components/fanwood/webfonts/fanwood_text-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../bower_components/fanwood/webfonts/fanwood_text-webfont.woff') format('woff'),
+         url('../bower_components/fanwood/webfonts/fanwood_text-webfont.ttf') format('truetype'),
+         url('../bower_components/fanwood/webfonts/fanwood_text-webfont.svg#fanwood') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fanwood Italic';
+    src: url('../bower_components/fanwood/webfonts/fanwood_italic-webfont.eot');
+    src: url('../bower_components/fanwood/webfonts/fanwood_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../bower_components/fanwood/webfonts/fanwood_italic-webfont.woff') format('woff'),
+         url('../bower_components/fanwood/webfonts/fanwood_italic-webfont.ttf') format('truetype'),
+         url('../bower_components/fanwood/webfonts/fanwood_-italicwebfont.svg#fanwood') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  padding:100px 10%;
+  color:#445;
+  background:#f8f8f8;
+  font-family:'Raleway', sans-serif;
+}
+
+hr {
+  border:none;
+  margin:40px 0;
+}
+
+p {
+  font-size:30px;
+  text-align:center;
+}
+
+p img {
+  margin:20px 0;
+  width:30%;
+}
+
+h1, h2, h3, h4 {
+  margin-top:40px;
+  line-height:150%;
+}
+
+h3 {
+  font-size:3em;
+}
+
+#content h1, #content h2, #content h3, #content h4 {
+  text-align:center;
+}
+
+.btn-default {
+  background:#e8e8e8;
+  font-family:sans-serif;
+  color:#888;
+}
+
+.hero {
+  text-align:center;
+  margin:0 auto 40px;
+}
+
+.hero img {
+  width:40%;
+}
+.hero img.hidden-xs {
+  width:75%;
+}
+
+footer {
+  font-family:'Raleway', sans-serif;
+  text-align:center;
+  padding:80px 0 40px;
+}
