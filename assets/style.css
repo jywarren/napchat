@@ -64,19 +64,27 @@ p {
   text-align:center;
 }
 
-img {
-  margin:20px 0;
-  width:30%;
-}
-
 .hero {
   text-align:center;
   margin:0 auto 40px;
 }
 
+img {
+  margin:20px 0;
+  width:30%;
+}
+
+img.wide {
+  width:50%;
+}
+
 @media (max-width:768px) {
   img {
     width:75%;
+  }
+
+  img.wide {
+    width:80%;
   }
 }
 
